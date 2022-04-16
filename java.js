@@ -83,7 +83,7 @@ let userScore = parseInt(0);
 let computerScore = parseInt(0);
 
 for (i=0; i < 5; i++) {
-let playerChoice = prompt ("choose between rock, paper and scissors");
+let playerChoice = prompt ("open your console using f12 and then type between rock, paper and scissors");
 playerChoice = playerChoice.toLowerCase();
 const compChoice = computerChoice ();
 console.log ("You picked : " + playerChoice);
